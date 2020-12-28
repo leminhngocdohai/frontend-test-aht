@@ -1,0 +1,202 @@
+/* clear------------- */
+
+a {
+    list-style: none !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+html, h1, h2, h3, h4, h5, h6, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, img, ins, kbd, q, s,
+samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; 
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.clearfix {
+    overflow: hidden;
+}
+
+.nopadding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* slide-------------------- */
+each(range(8), {
+    .mySlides-@{value} {
+        display: none;
+    }
+});
+
+/* margin - bottom------------------ */
+
+.p-l (@p-l){
+    padding-left: @p-l;
+}
+
+.p-r (@p-r){
+    padding-right: @p-r;
+}
+
+.p-t (@p-t){
+    padding-top: @p-t;
+}
+
+.p-b (@p-b){
+    padding-bottom: @p-b;
+}
+
+.m-l (@m-l){
+    margin-left: @m-l;
+}
+
+.m-r (@m-r){
+    margin-right: @m-r;
+}
+
+.m-t (@m-t){
+    margin-top: @m-t;
+}
+
+.m-b (@m-b){
+    margin-bottom: @m-b;
+}
+
+.padding-l-r (@left, @right){
+    padding-left: @left;
+    padding-right: @right;
+}
+
+.padding-t-b (@top, @bottom){
+    padding-top: @top;
+    padding-bottom: @bottom;
+}
+
+.margin-l-r (@left, @right){
+    margin-left: @left;
+    margin-right: @right;
+}
+
+.margin-t-b (@top, @bottom){
+    margin-top: @top;
+    margin-bottom: @bottom;
+}
+
+/* font - size - weight - color------------------------ */
+
+.font-s-w-c (@font, @size, @weight, @color){
+    font-family: @font;
+    font-size: @size;
+    font-weight: @weight;
+    color: @color;
+}
+
+.font-s-c (@font, @size, @color){
+    font-family: @font;
+    font-size: @size;
+    color: @color;
+}
+
+.font-s-w (@font, @size, @weight){
+    font-family: @font;
+    font-size: @size;
+    font-weight: @weight;
+}
+
+.font-s (@font, @size){
+    font-family: @font;
+    font-size: @size;
+}
+
+.font-c (@font, @color){
+    font-family: @font;
+    color: @color;
+}
+
+.s-c (@size, @color){
+    font-size: @size;
+    color: @color;
+}
+
+.h3 (@h3-size){
+    font-size: @h3-size;
+    font-weight: bold;
+}
+
+/* height - width */
+
+.h (@height){
+    height: @height;
+}
+
+.w (@width){
+    width: @width;
+}
+
+.max-h (@height){
+    max-height: @height;
+}
+
+.max-w (@width){
+    max-width: @width;
+}
+
+.h-w (@height, @width){
+    height: @height;
+    width: @width;
+}
+
+/* position---------------- */
+
+.position-t-l (@position, @top, @left){
+    position: @position;
+    top: @top;
+    left: @left;
+}
+
+.position-t-r (@position, @top, @right){
+    position: @position;
+    top: @top;
+    right: @right;
+}
+
+.position-t (@position, @top){
+    position: @position;
+    top: @top;
+}
+
+/* container ------------ */
+#helper,
+#content-page,
+#banner,
+#products,
+#co-op,
+#footer {
+    @media (min-width: 1200px) {
+        .container, .container-sm, .container-md, .container-lg, .container-xl {
+            max-width: 1200px;
+        }
+    }
+}
+
+#blog-update {
+    @media (min-width: 1200px) {
+        .container, .container-sm, .container-md, .container-lg, .container-xl {
+            max-width: 1170px;
+        }
+    }
+}

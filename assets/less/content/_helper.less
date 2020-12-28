@@ -1,0 +1,46 @@
+#helper {
+    .h (80px);
+    border-bottom: 1px solid #efefef;
+    .p-l (15px);
+    
+    &__free-shipping,
+    &__support,
+    &__payment {
+        .h (80px);
+        .padding-t-b (20px, 20px);
+        text-align: center;
+
+        &--b {
+            line-height: 25px;
+            .font-s-w-c (@corm, 18px, 700, #333);
+
+            text-transform: uppercase;
+            letter-spacing: 1.75px;
+        }
+
+        &--r {
+            .font-s-w-c (@firas, 14px, normal, #b1b1b1);
+
+            line-height: 28px;
+            letter-spacing: 0;
+        }
+    }
+
+    &__free-shipping {
+        border-left: 1px solid #efefef;
+        .p-l (3px);
+    }
+
+    &__payment {
+        border-right: 1px solid #efefef;
+        .p-r (22px);
+    }
+
+    &__support {
+        border-left: 1px solid #efefef;
+        border-right: 1px solid #efefef;
+        .margin-l-r (15px, 15px);
+        .p-l (6px);
+    }
+
+}

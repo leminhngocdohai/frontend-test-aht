@@ -1,0 +1,121 @@
+#footer {
+    background-color: #333;
+
+    &__top {
+        padding: 45px 0px 8px 0px;
+        border-bottom: 1px solid #2b2b2b;
+        margin: 0 -6px;
+
+        &__logo {
+            .p-t (18px);
+        }
+
+        &__menu {
+            line-height: 160px;
+            text-align: center;
+            padding: 3% 8% 0 10.5%;
+
+            ul {           
+                li {
+                    list-style: none;
+                    float: left;
+
+                    .margin-l-r (17px, 17px);                  
+                    
+                    a {
+                        .font-s-w-c (@firas, 14px, bold, #ababab);
+                        text-transform: uppercase;
+                        letter-spacing: 1.25px;
+                    }
+                    
+                    a:hover {
+                        color: #d6ba8d;
+                    }
+                } 
+            }
+        }
+
+        &__sub {
+            .p-t (96px);
+            text-align: right;
+            
+            button {
+                .m-r (-18px);
+                .font-s-w-c (@firas, 14px, bold, #ababab);
+
+                padding: 9px 18.5px 7px 18.5px;
+                border: 2px solid #696969;
+
+                text-transform: uppercase;
+                letter-spacing: 2.25px;
+                background-color: transparent;
+
+                .iconify {
+                    .s-c (18px, #d6ba8d);
+                }
+            }
+
+            button:focus {
+                outline: none;
+            }
+
+            button:hover {
+                border: 2px solid #d6ba8d;
+                background-color: #d6ba8d;
+                color: #333;
+            }
+
+            button:hover .iconify {
+                color: #333;
+            }
+        }
+    }
+
+    &__bottom {
+        .h (170px);
+
+        &__about {
+            text-align: left;
+            .p-t (41px);
+            .m-l (-10px);
+
+            p {
+                .font-s-w-c (@firas, 14px, 400, #626262);
+                .p-l (19px);
+
+                letter-spacing: 0;
+                line-height: 28px;
+            }
+        }
+        
+        &__us {
+            text-align: right;
+            .p-t (45px);
+
+            .alo {
+                margin: 0 2.5px;
+                padding: 13px;
+                border-radius: 50%;
+                border: 2px solid #4e4e4e;
+            }
+
+            .alo:last-child {
+                .m-r (-17px);
+            }
+
+            .alo:hover {
+                background-color: #d6ba8d;
+                border: none;
+                padding: 15px;
+            }
+
+            .iconify {
+                .s-c (18px, #ababab);
+            }
+
+            .alo:hover .iconify {
+                color: #333;
+            }
+        }
+    }
+}
