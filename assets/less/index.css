@@ -579,7 +579,7 @@ body #header__bg__banner--discover-now {
   margin-top: 55px;
   margin-left: -2px;
 }
-body #header__bg__banner--discover-now button {
+body #header__bg__banner--discover-now a {
   font-family: 'Fira Sans', sans-serif;
   font-size: 16px;
   font-weight: bold;
@@ -591,7 +591,7 @@ body #header__bg__banner--discover-now button {
   padding: 14px 29px 15px 29px;
   border: none;
 }
-body #header__bg__banner--discover-now button:hover {
+body #header__bg__banner--discover-now a:hover {
   color: #333;
   background-color: transparent;
   border: 2px solid #333;
@@ -660,35 +660,21 @@ body #content-page p {
   line-height: 48px;
 }
 body #banner {
-  margin-bottom: 20px;
+  padding-bottom: 8px;
 }
 body #banner .container-fluid {
   max-width: 1920px;
 }
+body #banner__banner-list {
+  margin: 0 50px;
+}
 body #banner__banner-list--item {
   text-align: center;
-  max-height: 570px;
-  padding: 25.5px 0px;
+  padding: 25.5px;
 }
-body #banner__banner-list--item:first-child,
-body #banner__banner-list--item:nth-child(4) {
-  padding-left: 100px;
-}
-body #banner__banner-list--item:nth-child(2) {
-  padding-left: 17px;
-}
-body #banner__banner-list--item:nth-child(3) {
-  padding-left: 2px;
-  padding-right: 82px;
-}
-body #banner__banner-list--item:nth-child(5) {
-  padding-left: 48px;
-}
-body #banner__banner-list--item:nth-child(6) {
-  margin-left: -26px;
-}
-body #banner__banner-list--item:hover {
-  padding-top: 21px;
+body #banner__banner-list--item img {
+  width: 100%;
+  height: 100%;
 }
 body #products {
   padding-top: 75px;
@@ -726,24 +712,27 @@ body #products__list {
 }
 body #products__list__item--picture {
   position: relative;
-  max-width: 270px;
-  max-height: 320px;
 }
 body #products__list__item--picture img:first-child {
   display: block;
+}
+body #products__list__item--picture img {
+  width: 100%;
 }
 body #products__list__item--picture--l-r,
 body #products__list__item--picture--action {
   transition: 0.5s ease;
   opacity: 0;
 }
-body #products__list__item--picture--l-r {
+body #products__list__item--picture--l-r button:first-child {
   position: absolute;
-  top: 135px;
+  top: 42.5%;
   left: 10px;
 }
-body #products__list__item--picture--l-r button:first-child {
-  margin-right: 200px;
+body #products__list__item--picture--l-r button:last-child {
+  position: absolute;
+  top: 42.5%;
+  right: 10px;
 }
 body #products__list__item--picture--l-r button {
   font-size: 24px;
@@ -885,6 +874,7 @@ body #blog-update__list--item h5 {
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 24px;
   font-weight: bold;
+  color: #333;
   letter-spacing: 1.25px;
   line-height: 32px;
   padding: 18px 10px 50px 2px;
@@ -1070,13 +1060,6 @@ body #footer__bottom__us .alo:hover .iconify {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-  #banner__banner-list--item {
-    padding: 15.5px 0px !important;
-    margin: 0px !important;
-  }
-  #banner__banner-list--item img {
-    max-width: 90%;
-  }
 }
 @media (max-width: 1212px) {
   body #header__bg {
@@ -1090,6 +1073,9 @@ body #footer__bottom__us .alo:hover .iconify {
   }
   body #header__bg__banner--content--text {
     font-size: 50px;
+  }
+  body #banner__banner-list {
+    margin: 0;
   }
   body #co-op {
     height: auto;
@@ -1119,7 +1105,7 @@ body #footer__bottom__us .alo:hover .iconify {
     margin-left: -25%;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   body #header__bg {
     height: 550px;
   }
@@ -1145,24 +1131,21 @@ body #footer__bottom__us .alo:hover .iconify {
     margin: 0;
     border: none;
   }
-  body #content-page {
-    display: none;
-  }
-  body #banner__banner-list div:nth-child(2),
-  body #banner__banner-list div:nth-child(6) {
-    display: none;
-  }
   body #banner__banner-list--item {
-    padding: 0 !important;
-    margin: 0 !important;
+    padding: 1% !important;
+  }
+  body #content-page {
+    height: auto;
+    padding-top: 0 !important;
+  }
+  body #content-page p {
+    padding: 0;
+    line-height: normal;
   }
   body #products {
     margin-left: 0;
     padding-left: 0;
     text-align: center;
-  }
-  body #products__list__item--picture img {
-    margin-left: 10%;
   }
   body #blog-update__list--item {
     position: relative;
@@ -1196,6 +1179,9 @@ body #footer__bottom__us .alo:hover .iconify {
   #header__bg__main img {
     height: 400px !important;
   }
+  #header__bg__r #myMenuItem {
+    width: 70% !important;
+  }
   #header__bg__banner {
     margin-left: -38% !important;
   }
@@ -1206,23 +1192,21 @@ body #footer__bottom__us .alo:hover .iconify {
   #helper {
     padding-bottom: 200px !important;
   }
-  #banner {
-    display: none;
-  }
   #products__title--featured-items {
     font-size: 36px !important;
   }
   #products__title--view-more {
     margin-top: 15px !important;
   }
-  #products__list__item--picture {
-    margin-left: 22.5%;
-  }
-  #products__list__item--picture img {
+  #blog-update__list {
+    width: 100%;
+    display: block;
     margin-left: 0 !important;
+    margin-right: 0 !important;
   }
   #blog-update__list--item {
-    max-height: 375px;
+    height: auto !important;
+    margin-bottom: 10px !important;
   }
   #blog-update__list--item .card-body {
     padding: 30px !important;
@@ -1231,9 +1215,6 @@ body #footer__bottom__us .alo:hover .iconify {
     font-size: 16px !important;
     letter-spacing: 0.5px;
     padding: 0 !important;
-  }
-  #blog-update__list--item .social {
-    display: none;
   }
   #blog-update__title h3 {
     font-size: 36px !important;
@@ -1280,17 +1261,13 @@ body #footer__bottom__us .alo:hover .iconify {
   #header__bg__contact {
     display: none;
   }
-  #helper {
-    display: none;
-  }
 }
 @media (max-width: 575px) {
-  #blog-update__list {
-    padding-left: 10%;
-    padding-right: 10%;
+  #banner__banner-list--item:first-child {
+    display: none;
   }
   #products__list__item--picture {
-    margin: 5% 22.5%;
+    margin: 5% 5%;
   }
   #products__list__item--picture--action--add-to-cart {
     font-size: 10px !important;
@@ -1321,10 +1298,6 @@ body #footer__bottom__us .alo:hover .iconify {
   #header__bg__r {
     margin-top: 3% !important;
   }
-  #blog-update__list {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
   #footer__top__menu {
     padding-left: 2.5% !important;
   }
@@ -1333,14 +1306,4 @@ body #footer__bottom__us .alo:hover .iconify {
   }
 }
 @media (max-width: 320px) {
-  #blog-update__list {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  #blog-update__list--item .social {
-    display: block;
-  }
-  #blog-update__go-to {
-    padding: 0 15% !important;
-  }
 }

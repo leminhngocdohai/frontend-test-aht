@@ -29,6 +29,7 @@
             }
         }
     }
+
     &__list {
         .p-t (11px);
 
@@ -38,9 +39,11 @@
                     display: block;
                 }
 
+                img {
+                    width: 100%;
+                }
+
                 position: relative;
-                .max-w (270px);
-                .max-h (320px);
 
                 &--l-r,
                 &--action {
@@ -49,10 +52,12 @@
                 }
 
                 &--l-r {
-                    .position-t-l (absolute, 135px, 10px);
-
                     button:first-child {
-                        .m-r (200px);
+                        .position-t-l (absolute, 42.5%, 10px);
+                    }
+
+                    button:last-child {
+                        .position-t-r (absolute, 42.5%, 10px);
                     }
                     
                     button {
@@ -146,6 +151,7 @@
                     line-height: 12px;
                 }
             }
+            
         }
     }
 }
