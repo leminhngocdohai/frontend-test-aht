@@ -452,15 +452,32 @@ body #header__bg__r #myMenuItem {
   top: 0;
   right: 0;
   height: 100%;
-  width: 30%;
+  width: 100%;
   opacity: 0.75 !important;
   z-index: 100;
   display: none;
-  background: #696969;
   transition: right 3s linear;
 }
+body #header__bg__r #myMenuItem .close {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 110;
+  float: left;
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+}
 body #header__bg__r #myMenuItem ul {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 112;
   list-style: none;
+  height: 100%;
+  width: 40%;
+  float: right;
+  background: #696969;
 }
 body #header__bg__r #myMenuItem ul li a {
   font-size: 17px;
@@ -1109,6 +1126,9 @@ body #footer__bottom__us .alo:hover .iconify {
   body #header__bg {
     height: 550px;
   }
+  body #header__bg__r #myMenuItem ul {
+    width: 70% !important;
+  }
   body #header__bg__main img {
     height: 550px;
   }
@@ -1172,15 +1192,12 @@ body #footer__bottom__us .alo:hover .iconify {
     margin: 0 17px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #header__bg {
     height: 400px !important;
   }
   #header__bg__main img {
     height: 400px !important;
-  }
-  #header__bg__r #myMenuItem {
-    width: 70% !important;
   }
   #header__bg__banner {
     margin-left: -38% !important;

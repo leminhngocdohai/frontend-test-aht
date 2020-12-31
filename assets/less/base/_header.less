@@ -66,19 +66,34 @@
             
             #myMenuItem {
                 .position-t-r (fixed, 0, 0);
-                .h-w (100%, 30%);
+                .h-w (100%, 100%);
                 opacity: 0.75 !important;
                 z-index: 100;
                 display: none;
-                background: #696969;
+                
                 transition: right 3s linear;
-    
+                
+                .close {
+                    .position-t-r (fixed, 0, 0);
+                    z-index: 110;
+                    float: left;
+                    background-color:transparent;
+                    .h-w (100%, 100%);
+                }
+            
                 ul{
+                    .position-t-r (fixed, 0, 0);
+                    z-index: 112;
                     list-style: none;
+                    .h-w (100%, 40%);
+                    float: right;
+            
+                    background: #696969;
+                    
                     li {
                         a {
                             .s-c (17px, white);
-
+            
                             line-height: 30px;
                             padding: 14px 16px;
                             text-decoration: none;

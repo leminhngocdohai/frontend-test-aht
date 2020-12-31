@@ -101,6 +101,14 @@
             &__bg {
                 .h (550px);
 
+                &__r {
+                    #myMenuItem {
+                        ul {
+                            .w (70%) !important;
+                        }
+                    }
+                }
+
                 &__main {
                     img {
                         .h (550px);
@@ -198,9 +206,10 @@
             }
         }
     }
+    
 }
 
-@media (max-width:768px){
+@media (max-width:767px){
     #header {
         &__bg {
             .h (400px) !important;
@@ -208,12 +217,6 @@
             &__main {
                 img {
                     .h (400px) !important;
-                }
-            }
-
-            &__r {
-                #myMenuItem {
-                    .w (70%) !important;
                 }
             }
 
