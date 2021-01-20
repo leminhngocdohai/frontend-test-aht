@@ -1,116 +1,130 @@
 
 #header {
-    &__bg {
-        .w (100%);
-        .h (1000px);
+    width: 100%;
+    height: auto;
     
-        &__main {
-            .position-t-l (absolute, 0, 0);
-            z-index: -10;
-    
+    &__main{
+        position: relative;
+
+        &__logo {
+            position: absolute;
+            top: 3%;
+            left: 5.25%;
+        }
+        
+        &__bg {
+            position: relative;
+            z-index: -10000;
             img{
-                max-width: 100%;
-                .h (1000px);
+                width: 100%;
+                height: auto;
             }
         }
-    
-        &--logo,
-        &__r {
-            .h (110px);
-            line-height: 104px;
-        }
-    
-        &--logo {
-            .p-t (24px);
-            .m-l (5.25%);
-        }
-    
-        &__r {
-            z-index: 9999;
-            .m-r (4.75%);
-    
-            p {
-                display: inline;
-            }
-    
-            &--cart,
-            &--bar {
-                color: #fff;
-    
-                ion-icon {
-                    .p-t (41px);
-                }
-    
-                ion-icon:hover {
-                    color: #696969;
-                }
-            }
-    
-            &--cart {
-                &--icon {
-                    font-size: 30px;
-                    .m-b (16px);
-                    .m-r (21px);
-                }
-    
-                span:last-child {
-                    .position-t-l (relative, -16px, -32px);
-                    .font-s-w-c (@lato, 12px, bold, black);
-    
-                    background: #fff;
-                    border-radius: 50%;
-                    line-height: 1px;
-                    padding: 1.2px 5.5px;
-                }
-            }
-            
-            #myMenuItem {
-                .position-t-r (fixed, 0, 0);
-                .h-w (100%, 100%);
-                opacity: 0.75 !important;
-                z-index: 100;
-                display: none;
+
+        &__vv{
+            position: absolute;
+            top: 0%;
+            right: 5.65%;
+            z-index: 10;
+
+            img {
                 
-                transition: right 3s linear;
+                top: 0;
+                left: 0;
+                .w (100%);
+                height: auto;
+            }
+
+            &__r {
+                z-index: 9999;
+        
+                p {
+                    display: inline;
+                }
+        
+                &--cart,
+                &--bar {
+                    color: #fff;
+        
+                    ion-icon {
+                        .p-t (41px);
+                        font-size: 25px;
+                    }
+        
+                    ion-icon:hover {
+                        color: #696969;
+                    }
+                }
+        
+                &--cart {
+                    &--icon {
+                        font-size: 30px;
+                        .m-b (16px);
+                        .m-r (21px);
+                    }
+        
+                    span:last-child {
+                        .position-t-l (relative, -16px, -32px);
+                        .font-s-w-c (@lato, 12px, bold, black);
+        
+                        background: #fff;
+                        border-radius: 50%;
+                        line-height: 1px;
+                        padding: 1.2px 5.5px;
+                    }
+                }
                 
-                .close {
+                #myMenuItem {
                     .position-t-r (fixed, 0, 0);
-                    z-index: 110;
-                    float: left;
-                    background-color:transparent;
                     .h-w (100%, 100%);
-                }
-            
-                ul{
-                    .position-t-r (fixed, 0, 0);
-                    z-index: 112;
-                    list-style: none;
-                    .h-w (100%, 40%);
-                    float: right;
-            
-                    background: #696969;
+                    opacity: 0.75 !important;
+                    z-index: 100;
+                    display: none;
                     
-                    li {
-                        a {
-                            .s-c (17px, white);
-            
-                            line-height: 30px;
-                            padding: 14px 16px;
-                            text-decoration: none;
-                            display: block;
-                        }
-            
-                        a:hover {
-                            background: #3d3d3d;
+                    transition: right 3s linear;
+                    
+                    .close {
+                        .position-t-r (fixed, 0, 0);
+                        z-index: 110;
+                        float: left;
+                        background-color:transparent;
+                        .h-w (100%, 100%);
+                    }
+                
+                    ul{
+                        .position-t-r (fixed, 0, 0);
+                        z-index: 112;
+                        list-style: none;
+                        .h-w (100%, 70%);
+                        float: right;
+                
+                        background: #696969;
+                        
+                        li {
+                            a {
+                                .s-c (17px, white);
+                
+                                line-height: 30px;
+                                padding: 14px 16px;
+                                text-decoration: none;
+                                display: block;
+                            }
+                
+                            a:hover {
+                                background: #3d3d3d;
+                            }
                         }
                     }
                 }
             }
         }
-    
+
         &__contact {
-            .m-t (22.25%);
-            .m-r (-5.6%);
+            position: absolute;
+            top: 42.0%;
+            right: 0%;
+            z-index: 1;
+
             text-align: right;
     
             #a1,
@@ -136,7 +150,6 @@
                 #a@{value} {
                     p:last-child {                 
                         .p-l (10px);
-                        .position-t-r (absolute, 5px, -115px);
 
                         transition: 1s ease;
                         opacity: 0;
@@ -150,10 +163,13 @@
                 }
             });
         }
-    
+
+
         &__banner {
-            .p-t (30.1%);
-            .m-l (-1.15%);
+            position: absolute;
+            top: 34%;
+            left: 19.65%;
+            z-index: 1;
     
             &--content {
                 .m-l (-1px);
@@ -200,5 +216,9 @@
                 }
             }
         }
+
+
+
+
     }
 }

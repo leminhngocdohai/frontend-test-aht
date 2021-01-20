@@ -1,0 +1,657 @@
+.none {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+@media (max-width:1900px){
+    body {
+        #banner,
+        #products,
+        #blog-update,
+        #co-op,
+        #footer {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+        
+        #content-page {
+            .m-l (0) !important;
+        }
+
+        #banner {
+            .m-b (0) ;
+
+            &__list {
+                margin: 0;
+
+                &--item {
+                    max-height: auto !important;
+                    padding: 2% !important;
+                    margin: 0 !important;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                    
+                }
+
+                &--item:nth-child(2) {
+                    .minn {
+                        right: 9% !important;
+                    }
+                }
+
+                &--item:nth-child(3) {
+                    .minn {
+                        left: 9.5% !important;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+@media (max-width: 1700px){
+    body {
+        #banner {
+            &__list {
+                &--item:nth-child(2) {
+                    .minn {
+                        right: 12% !important;
+                        p{
+                            line-height: 50px !important;
+                        }
+    
+                        p:nth-child(2) {
+                            font-size: 60px !important;
+                        }
+    
+                        p:nth-child(1),
+                        p:nth-child(3),
+                        p:nth-child(4) {
+                            font-size: 16px !important;
+                        }
+                    }
+                }
+    
+                &--item:nth-child(2) {
+                    .minn {
+                        p:nth-child(2) {
+                            font-size: 60px !important;
+                        }
+                    }
+                }
+    
+                
+                &--item:nth-child(3) {
+                    .minn {
+                        p:nth-child(2) {
+                            font-size: 40px !important;
+                        }
+                    }
+                }
+    
+                &--item:nth-child(6) {
+                    .minn {
+                        left: 6% !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1400px){
+    body {
+        #header {
+            &__main {
+                &__banner {
+                    top: 20% !important;
+                    left: 5% !important;
+    
+                    &--content {
+                        &--text {
+                            font-size: 50px !important;
+                            line-height: 50px !important;
+                        }
+                    }
+                }
+            }
+        }
+    
+        #banner {
+            &__list {
+                &--item:nth-child(2) {
+                    .minn {
+                        top: 35% !important;
+            
+                        p:nth-child(2) {
+                            font-size: 40px !important;
+                            line-height: 50px !important;
+                        }
+            
+                        p:nth-child(1),
+                        p:nth-child(3),
+                        p:nth-child(4) {
+                            line-height: 20px !important;
+                            font-size: 14px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px){
+    body {
+        #banner {
+            &__list {
+                &--item:nth-child(1),
+                &--item:nth-child(5) {
+                    .minn {
+                        p{
+                            font-size: 16px !important;
+                        }
+                    }
+                }
+
+                &--item:nth-child(3) {
+                    .minn {
+                        p:first-child {
+                            line-height: 50px;
+                        }
+                        p:last-child {
+                            line-height: 26px !important;
+                            font-size: 40px !important;
+                        }
+                    }
+                }
+
+                &--item:nth-child(2) {
+                    .minn {
+                        right: 7% !important;
+                    }
+                }
+                &--item:nth-child(6) {
+                    .minn {
+                        top: 10% !important;
+                        p:first-child {
+                            font-size: 40px !important
+                        }
+                    }
+                }
+            }
+        }
+
+        #co-op {
+            .h (auto);
+
+            &__list {
+                .p-t (5%);
+                &--name {
+                    padding: 0 !important;
+                    line-height: 175px;
+                }
+            }
+        }
+
+        #blog-update {
+            .card-deck {
+                .margin-l-r (auto, auto);
+            }
+        }
+
+        #footer {
+            &__top {
+                &__menu {
+                    ul {
+                        li {
+                            margin: 0 7px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px){
+    body {
+        #helper {
+            .p-t (20px);
+            .p-b (250px) !important;
+
+            &__free-shipping,
+            &__support,
+            &__payment {
+                padding: 0;
+                margin: 0;
+                border: none;
+            }
+        }
+
+        #banner {
+            &__list {
+                &--item {
+                    padding: 1% !important;
+                }
+                &--item:nth-child(1),
+                &--item:nth-child(5) {
+                    .minn {
+                        p{
+                            line-height: 16px !important;
+                            font-size: 12px !important;
+                        }
+                    }
+                }
+                &--item:nth-child(2) {
+                    .minn {
+                        top: 25% !important;
+                        right: 7% !important;
+                        p{
+                            line-height: 50px !important;
+                        }
+    
+                        p:nth-child(1),
+                        p:nth-child(3),
+                        p:nth-child(4) {
+                            font-size: 12px !important;
+                            
+                        }
+                    }
+                }
+                &--item:nth-child(3) {
+                    .minn {
+                        left: 9% !important;
+                        p:first-child {
+                            
+                            font-size: 10px !important;
+                        }
+                        p:last-child {
+                            line-height: 16px !important;
+                            font-size: 24px !important;
+                        }
+                    }
+                }
+
+                &--item:nth-child(6) {
+                    .minn {
+                        top: 20% !important;
+                        p:first-child {
+                            line-height: 25px !important;
+                            font-size: 30px !important
+                        }
+                    }
+                }
+            }
+        }
+
+        #content-page {
+            .h (auto);
+            .p-t (0) !important;
+            p {
+                padding: 0;
+                line-height: normal;
+            }
+        }
+        
+        #products {
+            .m-l (0);
+            .p-l (0);
+            text-align: center;
+        }
+
+        #blog-update {
+            &__list {
+                &--item {
+                    position: relative;
+
+                    h5 {
+                        border: none;
+                    }
+
+                    .social {
+                        position: absolute;
+                        bottom: 4%;
+                        left: 5%;
+                    }
+                }
+            }
+        }
+
+        #footer {
+            &__top {
+                &__logo,
+                &__menu,
+                &__sub {
+                    text-align: center !important;
+                    padding: 0;
+                    margin: 0;
+                }
+
+                &__menu {
+                    padding: 0 10%;
+                    ul {
+                        li {
+                            margin: 0 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width:767px){
+    body {
+        #header {
+            &__main {
+                &__banner {
+                    top: 25% !important;
+    
+                    &--content {
+                        &--year {
+                            font-size: 18px !important;
+                            letter-spacing: 5px !important;
+                        }
+    
+                        &--text {
+                            font-size: 25px !important;
+                            line-height: 35px !important;
+                            letter-spacing: 20px !important;
+                        }
+                    }
+                }
+
+                &__contact {
+                    right: 2% !important;
+                    #a1,
+                    #a2,
+                    #a3,
+                    #a4 {
+                        p:first-child {
+                            font-size: 20px;
+                            letter-spacing: 1px;
+                            line-height: 20px;
+                        }
+
+                        p:last-child {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    
+        #banner {
+            &__list {
+                &--item:nth-child(2){
+                    .minn {
+                        right: 7% !important;
+                        p:nth-child(1) {
+                            letter-spacing: 0 !important;
+                        }
+                        
+                        p:nth-child(2) {
+                            line-height: 35px !important;
+                        }
+    
+                        p:nth-child(3){
+                            font-size: 9px !important;
+                        }
+                    }
+                }
+            }
+    
+            &--item:nth-child(3) {
+                .minn {
+                    p {
+                        line-height: 20px !important;
+                        letter-spacing: 1px !important;
+                    }
+                }
+            }
+        }
+    
+        #products {
+            &__title {
+                &--featured-items {
+                    font-size: 36px !important;
+                }
+    
+                &--view-more {
+                    .m-t (15px) !important;
+                }
+            }
+    
+        }
+    
+        #blog-update {
+            &__list {
+                .w (100%);
+                display: block;
+                &--item {
+                    .h (auto) !important;
+                    .m-b (9%) !important;
+                    .card-body {
+                        padding: 30px !important;
+                    }
+                    
+                    h5 {
+                        font-size: 16px !important;
+                        letter-spacing: 0.5px;
+                        padding: 0 !important;
+                    }
+                }
+            }
+    
+            &__title {
+                h3 {
+                    font-size: 36px !important;
+                }
+            }
+    
+            &__go-to {
+                padding: 0 35% !important;
+            }
+        }
+    
+        #footer {
+            .p-b (5%);
+    
+            &__top {
+                &__menu {
+                    line-height: 100px;
+                    padding: 0 !important;
+    
+                    ul {
+                        li {
+                            margin: 0 12px !important;
+                        }
+                    }
+                }
+            }
+    
+            &__bottom {
+                &__about,
+                &__us {
+                    padding-bottom: 20px !important;
+                    text-align: center !important;
+                }
+                &__us {
+                    .p-t (0) !important;
+                }
+            }
+    
+        }
+    }
+}
+
+@media (max-width:599px){
+    body {
+        #banner {
+            &__list {
+                padding: 0 12px !important;
+
+                &--item:nth-child(2){
+                    .minn {
+                        right: 7% !important;
+                        p:nth-child(4) {
+                            letter-spacing: 0.5px !important;
+                            line-height: 15px !important;
+                        }
+                        
+                        p:nth-child(2) {
+                            font-size: 30px !important;
+                        }
+    
+                        p:nth-child(3){
+                            font-size: 8px !important;
+                        }
+                    }
+                }
+            }
+        }
+        #content-page {
+            p {
+                font-size: 24px !important;
+            }
+        }
+    }
+}
+
+@media (max-width:575px){
+    body {
+        #header {
+            &__main {
+                &__banner {
+                    top: 25% !important;
+    
+                    &--content {
+                        &--year {
+                            font-size: 18px !important;
+                            letter-spacing: 5px !important;
+                        }
+    
+                        &--text {
+                            .m-t (10px) !important;
+                            font-size: 25px !important;
+                            line-height: 35px !important;
+                            letter-spacing: 20px !important;
+                        }
+                    }
+                }
+            }
+        }
+    
+        #banner {
+            &__list {
+                padding: 0 !important;
+                &--item {
+                    max-height: none !important;
+                    padding: 2% 0 !important;
+                }
+            }
+        }
+        
+        #products {
+            &__list {
+                &__item {
+                    &--picture {
+                        &--action {
+                            &--add-to-cart {
+                                font-size: 10px !important;
+                            }
+    
+                            &--favorite,
+                            &--wave,
+                            &--search {
+                                font-size: 12px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    
+        #blog-update {
+            .card-deck {
+                .margin-l-r (15px, 15px) !important;
+            }
+        }
+    
+        #footer {
+            &__top {
+                &__menu {
+                    line-height: 100px !important;
+    
+                    ul {
+                        display: flex;
+                        justify-content: center;
+                        
+                        li {
+                            margin: 0 2% !important;
+                            
+                            a {
+                                font-size: 12px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:479px){
+    body {
+        #header {
+            &__main {
+                &__banner {
+                    top: 30% !important;
+    
+                    &--content {
+                        &--year {
+                            font-size: 12px !important;
+                        }
+    
+                        &--text {
+                            .m-t (10px) !important;
+                            font-size: 14px !important;
+                            line-height: 18px !important;
+                            letter-spacing: 10px !important;
+                        }
+                    }
+                }
+            }
+        }
+    
+        #footer {
+            &__top {
+                &__menu {
+                    .p-l (2.5%) !important;
+    
+                    ul {
+                        li {
+                            a {
+                                font-size: 10px !important;
+                                letter-spacing: 0.25px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+

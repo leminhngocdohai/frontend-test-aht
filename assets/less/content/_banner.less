@@ -22,12 +22,14 @@
             .p-l (100px);
 
             .minn {
+                .p-l (10px);
                 .position-l (absolute, 0%);
-                bottom: 10%;
+                bottom: 9%;
                 width: 100%;
 
                 p:first-child {
                     .font-s-w-c (@firas, 24px, 400, #333);
+                    letter-spacing: 1px;
                     text-transform: capitalize;
                     line-height: 36px;
                 }
@@ -43,26 +45,24 @@
         
 
         &--item:nth-child(2) {
-            .p-l (17px);
-
             .minn {
-                .position-t-r (absolute, 25%, 13%);
+                .position-t-r (absolute, 20.5%, 14%);
 
                 p:nth-child(1) {
                     .font-s-w-c (@firas, 18px, 400, #333);
                     line-height: 64px;
-                    letter-spacing: 2px;
+                    letter-spacing: 4px;
                 }
 
                 p:nth-child(2) {
                     .font-s-w-c (@corm, 100px, 700, #333);
-                    line-height: 64px;
+                    line-height: 90px;
                     letter-spacing: 0px;
                 }   
 
                 p:nth-child(3) {
                     .font-s-w-c (@corm, 24px, 700, #696969);
-                    line-height: 64px;
+                    line-height: 85px;
                     letter-spacing: 0px;
                     text-transform: capitalize;
                 } 
@@ -70,34 +70,30 @@
                 p:last-child {
                     .font-s-w-c (@firas, 14px, 700, #696969);
                     text-transform: uppercase;
-                    line-height: 64px;
-                    letter-spacing: 2px;
+                    line-height: 92px;
+                    letter-spacing: 2.5px;
                 }
             }
         }
 
         &--item:nth-child(3) {
-            .padding-l-r (2px, 82px);
+            .m-l(-55px);
 
             .minn {
-                width: 100%;
-                .position-r (absolute, 0%);
-                bottom: 15%;
+                .position-l (absolute, 19.5%);
+                bottom: 10.5%;
                 text-align: left;
 
-                p {
-                    .p-l (10%);
-                }
                 p:nth-child(1) {
                     .font-s-w-c (@firas, 14px, 400, #333);
                     line-height: 24px;
-                    letter-spacing: 2px;
+                    letter-spacing: 2.75px;
                     text-transform: uppercase;
                 }
 
                 p:nth-child(2) {
                     .font-s-w-c (@corm, 72px, 700, #d6ba8d);
-                    line-height: 64px;
+                    line-height: 110px;
                     letter-spacing: 0px;
                     text-transform: capitalize;
                 }   
@@ -109,17 +105,18 @@
         }
 
         &--item:nth-child(5) {
-            .p-l (48px);
+            .p-l (35px);
 
             .minn {
                 .position-l (absolute, 0%);
-                bottom: 15%;
+                bottom: 9.25%;
                 width: 100%;
 
                 p:first-child {
                     .font-s-w-c (@firas, 24px, 400, #333);
                     text-transform: capitalize;
                     line-height: 36px;
+                    letter-spacing: 1px;
                 }
 
                 p:last-child {
@@ -131,17 +128,24 @@
         }
 
         &--item:nth-child(6) {
-            .p-r (55px);
+            .p-r (75px);
 
             .minn {
-                .position-t-l (absolute, 25%, 10%);
+                .position-t-l (absolute, 26.25%, 9%);
                 text-align: left;
 
-                p {
+                p:first-child {
                     .font-s-w-c (@corm, 48px, 700, #333);
                     text-transform: capitalize;
                     line-height: 56px;
                     letter-spacing: 0;
+                }
+
+                p:last-child {
+                    .p-t (22px);
+                    .font-s-w-c (@firas, 14px, 400, #696969);
+                    line-height: 24px;
+                    letter-spacing: 0.5px;
                 }
             }
         }

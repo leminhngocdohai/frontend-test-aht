@@ -1,13 +1,16 @@
 // Bar
-
-function myMenu() {
-  var x = document.getElementById("myMenuItem");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
+$(document).ready(function(){
+  $("#myMenu").click(
+    function() {
+      var x = document.getElementById("myMenuItem");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  );
+});
 
 function myClose() {
   var x = document.getElementById("myMenuItem");
@@ -15,15 +18,11 @@ function myClose() {
 }
 
 
+var k = '';
+
 // Slide
 
 var slideIndex = 1;
-showDivs(slideIndex, k);
-
-function plusDivs(n, k) {
-  showDivs(slideIndex += n, k);
-}
-
 
 function showDivs(n, k) {
   var i;
@@ -34,5 +33,11 @@ function showDivs(n, k) {
       x[i].style.display = "none";  
   }
   x[slideIndex-1].style.display = "block";  
+}
+
+showDivs(slideIndex, k);
+
+function plusDivs(n, k) {
+  showDivs(slideIndex += n, k);
 }
 
