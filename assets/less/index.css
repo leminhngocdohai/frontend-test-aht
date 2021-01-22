@@ -344,106 +344,106 @@ video {
 /* position---------------- */
 /* container ------------ */
 @media (min-width: 1200px) {
-  #helper .container,
-  #content-page .container,
-  #banner .container,
-  #products .container,
-  #co-op .container,
-  #footer .container,
-  #helper .container-sm,
-  #content-page .container-sm,
-  #banner .container-sm,
-  #products .container-sm,
-  #co-op .container-sm,
-  #footer .container-sm,
-  #helper .container-md,
-  #content-page .container-md,
-  #banner .container-md,
-  #products .container-md,
-  #co-op .container-md,
-  #footer .container-md,
-  #helper .container-lg,
-  #content-page .container-lg,
-  #banner .container-lg,
-  #products .container-lg,
-  #co-op .container-lg,
-  #footer .container-lg,
-  #helper .container-xl,
-  #content-page .container-xl,
-  #banner .container-xl,
-  #products .container-xl,
-  #co-op .container-xl,
-  #footer .container-xl {
+  .helper .container,
+  .content-page .container,
+  .banner .container,
+  .products .container,
+  .co-op .container,
+  .footer .container,
+  .helper .container-sm,
+  .content-page .container-sm,
+  .banner .container-sm,
+  .products .container-sm,
+  .co-op .container-sm,
+  .footer .container-sm,
+  .helper .container-md,
+  .content-page .container-md,
+  .banner .container-md,
+  .products .container-md,
+  .co-op .container-md,
+  .footer .container-md,
+  .helper .container-lg,
+  .content-page .container-lg,
+  .banner .container-lg,
+  .products .container-lg,
+  .co-op .container-lg,
+  .footer .container-lg,
+  .helper .container-xl,
+  .content-page .container-xl,
+  .banner .container-xl,
+  .products .container-xl,
+  .co-op .container-xl,
+  .footer .container-xl {
     max-width: 1200px;
   }
 }
 @media (min-width: 1200px) {
-  #blog-update .container,
-  #blog-update .container-sm,
-  #blog-update .container-md,
-  #blog-update .container-lg,
-  #blog-update .container-xl {
+  .blog-update .container,
+  .blog-update .container-sm,
+  .blog-update .container-md,
+  .blog-update .container-lg,
+  .blog-update .container-xl {
     max-width: 1170px;
   }
 }
 /* body--------------- */
-body #header {
+body .header {
   width: 100%;
   height: auto;
 }
-body #header__main {
+body .header__main {
   position: relative;
 }
-body #header__main__logo {
+body .header__main__logo {
   position: absolute;
   top: 3%;
   left: 5.25%;
 }
-body #header__main__bg {
+body .header__main__bg {
   position: relative;
   z-index: -10000;
 }
-body #header__main__bg img {
+body .header__main__bg img {
   width: 100%;
   height: auto;
 }
-body #header__main__vv {
+body .header__main__vv {
   position: absolute;
   top: 0%;
   right: 5.65%;
   z-index: 10;
 }
-body #header__main__vv img {
+body .header__main__vv img {
   top: 0;
   left: 0;
   width: 100%;
   height: auto;
 }
-body #header__main__vv__r {
+body .header__main__vv__r {
   z-index: 9999;
 }
-body #header__main__vv__r p {
+body .header__main__vv__r p {
   display: inline;
 }
-body #header__main__vv__r--cart,
-body #header__main__vv__r--bar {
+body .header__main__vv__r--cart,
+body .header__main__vv__r--bar {
   color: #fff;
 }
-body #header__main__vv__r--cart ion-icon,
-body #header__main__vv__r--bar ion-icon {
+body .header__main__vv__r--cart ion-icon,
+body .header__main__vv__r--bar ion-icon {
   padding-top: 41px;
   font-size: 25px;
 }
-body #header__main__vv__r--cart ion-icon:hover,
-body #header__main__vv__r--bar ion-icon:hover {
+body .header__main__vv__r--cart ion-icon:hover,
+body .header__main__vv__r--bar ion-icon:hover {
   color: #696969;
 }
-body #header__main__vv__r--cart--icon {
+body .header__main__vv__r--cart--icon {
   font-size: 30px;
   margin-bottom: 16px;
   margin-right: 21px;
 }
-body #header__main__vv__r--cart span:last-child {
+body .header__main__vv__r--cart span:last-child {
   position: relative;
   top: -16px;
   left: -32px;
@@ -456,7 +456,7 @@ body #header__main__vv__r--cart span:last-child {
   line-height: 1px;
   padding: 1.2px 5.5px;
 }
-body #header__main__vv__r #myMenuItem {
+body .header__main__vv__r #myMenuItem {
   position: fixed;
   top: 0;
   right: 0;
@@ -467,7 +467,7 @@ body #header__main__vv__r #myMenuItem {
   display: none;
   transition: right 3s linear;
 }
-body #header__main__vv__r #myMenuItem .close {
+body .header__main__vv__r #myMenuItem .close {
   position: fixed;
   top: 0;
   right: 0;
@@ -477,7 +477,7 @@ body #header__main__vv__r #myMenuItem .close {
   height: 100%;
   width: 100%;
 }
-body #header__main__vv__r #myMenuItem ul {
+body .header__main__vv__r #myMenuItem ul {
   position: fixed;
   top: 0;
   right: 0;
@@ -488,7 +488,7 @@ body #header__main__vv__r #myMenuItem ul {
   float: right;
   background: #696969;
 }
-body #header__main__vv__r #myMenuItem ul li a {
+body .header__main__vv__r #myMenuItem ul li a {
   font-size: 17px;
   color: white;
   line-height: 30px;
@@ -496,32 +496,32 @@ body #header__main__vv__r #myMenuItem ul li a {
   text-decoration: none;
   display: block;
 }
-body #header__main__vv__r #myMenuItem ul li a:hover {
+body .header__main__vv__r #myMenuItem ul li a:hover {
   background: #3d3d3d;
 }
-body #header__main__contact {
+body .header__main__contact {
   position: absolute;
   top: 42%;
   right: 0%;
   z-index: 1;
   text-align: right;
 }
-body #header__main__contact #a1,
-body #header__main__contact #a2,
-body #header__main__contact #a3,
-body #header__main__contact #a4 {
+body .header__main__contact #a1,
+body .header__main__contact #a2,
+body .header__main__contact #a3,
+body .header__main__contact #a4 {
   position: relative;
 }
-body #header__main__contact #a1 p,
-body #header__main__contact #a2 p,
-body #header__main__contact #a3 p,
-body #header__main__contact #a4 p {
+body .header__main__contact #a1 p,
+body .header__main__contact #a2 p,
+body .header__main__contact #a3 p,
+body .header__main__contact #a4 p {
   display: inline-block;
 }
-body #header__main__contact #a1 p:first-child,
-body #header__main__contact #a2 p:first-child,
-body #header__main__contact #a3 p:first-child,
-body #header__main__contact #a4 p:first-child {
+body .header__main__contact #a1 p:first-child,
+body .header__main__contact #a2 p:first-child,
+body .header__main__contact #a3 p:first-child,
+body .header__main__contact #a4 p:first-child {
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 24px;
   color: #f1ede8;
@@ -529,52 +529,52 @@ body #header__main__contact #a4 p:first-child {
   letter-spacing: 2.5px;
   line-height: 40px;
 }
-body #header__main__contact #a1 p:last-child {
+body .header__main__contact #a1 p:last-child {
   padding-left: 10px;
   transition: 1s ease;
   opacity: 0;
   color: black;
 }
-body #header__main__contact #a1:hover p:last-child {
+body .header__main__contact #a1:hover p:last-child {
   opacity: 1;
 }
-body #header__main__contact #a2 p:last-child {
+body .header__main__contact #a2 p:last-child {
   padding-left: 10px;
   transition: 1s ease;
   opacity: 0;
   color: black;
 }
-body #header__main__contact #a2:hover p:last-child {
+body .header__main__contact #a2:hover p:last-child {
   opacity: 1;
 }
-body #header__main__contact #a3 p:last-child {
+body .header__main__contact #a3 p:last-child {
   padding-left: 10px;
   transition: 1s ease;
   opacity: 0;
   color: black;
 }
-body #header__main__contact #a3:hover p:last-child {
+body .header__main__contact #a3:hover p:last-child {
   opacity: 1;
 }
-body #header__main__contact #a4 p:last-child {
+body .header__main__contact #a4 p:last-child {
   padding-left: 10px;
   transition: 1s ease;
   opacity: 0;
   color: black;
 }
-body #header__main__contact #a4:hover p:last-child {
+body .header__main__contact #a4:hover p:last-child {
   opacity: 1;
 }
-body #header__main__banner {
+body .header__main__banner {
   position: absolute;
   top: 34%;
   left: 19.65%;
   z-index: 1;
 }
-body #header__main__banner--content {
+body .header__main__banner--content {
   margin-left: -1px;
 }
-body #header__main__banner--content--year {
+body .header__main__banner--content--year {
   font-family: 'Fira Sans', sans-serif;
   font-size: 24px;
   color: #696969;
@@ -582,7 +582,7 @@ body #header__main__banner--content--year {
   text-transform: capitalize;
   padding-left: 1px;
 }
-body #header__main__banner--content--text {
+body .header__main__banner--content--text {
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 100px;
   font-weight: 600;
@@ -593,11 +593,11 @@ body #header__main__banner--content--text {
   letter-spacing: 30px;
   text-transform: uppercase;
 }
-body #header__main__banner--discover-now {
+body .header__main__banner--discover-now {
   margin-top: 8.75%;
   margin-left: -2px;
 }
-body #header__main__banner--discover-now a {
+body .header__main__banner--discover-now a {
   font-family: 'Fira Sans', sans-serif;
   font-size: 16px;
   font-weight: bold;
@@ -609,27 +609,27 @@ body #header__main__banner--discover-now a {
   padding: 14px 29px 15px 29px;
   border: none;
 }
-body #header__main__banner--discover-now a:hover {
+body .header__main__banner--discover-now a:hover {
   color: #333;
   background-color: transparent;
   border: 2px solid #333;
   padding: 13px 28px;
 }
-body #helper {
+body .helper {
   height: 75px;
   border-bottom: 1px solid #efefef;
 }
-body #helper__free-shipping,
-body #helper__support,
-body #helper__payment {
+body .helper__free-shipping,
+body .helper__support,
+body .helper__payment {
   height: 80px;
   padding-top: 15px;
   padding-bottom: 20px;
   text-align: center;
 }
-body #helper__free-shipping--b,
-body #helper__support--b,
-body #helper__payment--b {
+body .helper__free-shipping--b,
+body .helper__support--b,
+body .helper__payment--b {
   line-height: 25px;
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 18px;
@@ -638,9 +638,9 @@ body #helper__payment--b {
   text-transform: uppercase;
   letter-spacing: 1.75px;
 }
-body #helper__free-shipping--r,
-body #helper__support--r,
-body #helper__payment--r {
+body .helper__free-shipping--r,
+body .helper__support--r,
+body .helper__payment--r {
   font-family: 'Fira Sans', sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -648,60 +648,60 @@ body #helper__payment--r {
   line-height: 28px;
   letter-spacing: 0;
 }
-body #helper__free-shipping {
+body .helper__free-shipping {
   border-left: 1px solid #efefef;
   padding-left: 3px;
 }
-body #helper__payment {
+body .helper__payment {
   border-right: 1px solid #efefef;
   padding-right: 22px;
 }
-body #helper__support {
+body .helper__support {
   border-left: 1px solid #efefef;
   border-right: 1px solid #efefef;
   margin-left: 15px;
   margin-right: 15px;
   padding-left: 6px;
 }
-body #content-page {
+body .content-page {
   height: 250px;
   text-align: center;
   padding-top: 74px;
   margin-bottom: 55px;
   margin-left: -16px;
 }
-body #content-page p {
+body .content-page p {
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 34px;
   font-weight: 600;
   padding: 40px 150px 40px 165px;
   line-height: 48px;
 }
-body #banner {
+body .banner {
   margin-bottom: 20px;
 }
-body #banner .container-fluid {
+body .banner .container-fluid {
   max-width: 1920px;
 }
-body #banner__list--item {
+body .banner__list--item {
   text-align: center;
   max-height: 570px;
   padding: 25.5px 0;
 }
-body #banner__list--item--detail {
+body .banner__list--item--detail {
   position: relative;
 }
-body #banner__list--item:first-child {
+body .banner__list--item:first-child {
   padding-left: 100px;
 }
-body #banner__list--item:first-child .minn {
+body .banner__list--item:first-child .minn {
   padding-left: 10px;
   position: absolute;
   left: 0%;
   bottom: 9%;
   width: 100%;
 }
-body #banner__list--item:first-child .minn p:first-child {
+body .banner__list--item:first-child .minn p:first-child {
   font-family: 'Fira Sans', sans-serif;
   font-size: 24px;
   font-weight: 400;
@@ -710,7 +710,7 @@ body #banner__list--item:first-child .minn p:first-child {
   text-transform: capitalize;
   line-height: 36px;
 }
-body #banner__list--item:first-child .minn p:last-child {
+body .banner__list--item:first-child .minn p:last-child {
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -718,12 +718,12 @@ body #banner__list--item:first-child .minn p:last-child {
   text-transform: capitalize;
   line-height: 36px;
 }
-body #banner__list--item:nth-child(2) .minn {
+body .banner__list--item:nth-child(2) .minn {
   position: absolute;
   top: 20.5%;
   right: 14%;
 }
-body #banner__list--item:nth-child(2) .minn p:nth-child(1) {
+body .banner__list--item:nth-child(2) .minn p:nth-child(1) {
   font-family: 'Fira Sans', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -731,7 +731,7 @@ body #banner__list--item:nth-child(2) .minn p:nth-child(1) {
   line-height: 64px;
   letter-spacing: 4px;
 }
-body #banner__list--item:nth-child(2) .minn p:nth-child(2) {
+body .banner__list--item:nth-child(2) .minn p:nth-child(2) {
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 100px;
   font-weight: 700;
@@ -739,7 +739,7 @@ body #banner__list--item:nth-child(2) .minn p:nth-child(2) {
   line-height: 90px;
   letter-spacing: 0px;
 }
-body #banner__list--item:nth-child(2) .minn p:nth-child(3) {
+body .banner__list--item:nth-child(2) .minn p:nth-child(3) {
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -748,7 +748,7 @@ body #banner__list--item:nth-child(2) .minn p:nth-child(3) {
   letter-spacing: 0px;
   text-transform: capitalize;
 }
-body #banner__list--item:nth-child(2) .minn p:last-child {
+body .banner__list--item:nth-child(2) .minn p:last-child {
   font-family: 'Fira Sans', sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -757,16 +757,16 @@ body #banner__list--item:nth-child(2) .minn p:last-child {
   line-height: 92px;
   letter-spacing: 2.5px;
 }
-body #banner__list--item:nth-child(3) {
+body .banner__list--item:nth-child(3) {
   margin-left: -55px;
 }
-body #banner__list--item:nth-child(3) .minn {
+body .banner__list--item:nth-child(3) .minn {
   position: absolute;
   left: 19.5%;
   bottom: 10.5%;
   text-align: left;
 }
-body #banner__list--item:nth-child(3) .minn p:nth-child(1) {
+body .banner__list--item:nth-child(3) .minn p:nth-child(1) {
   font-family: 'Fira Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -775,7 +775,7 @@ body #banner__list--item:nth-child(3) .minn p:nth-child(1) {
   letter-spacing: 2.75px;
   text-transform: uppercase;
 }
-body #banner__list--item:nth-child(3) .minn p:nth-child(2) {
+body .banner__list--item:nth-child(3) .minn p:nth-child(2) {
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 72px;
   font-weight: 700;
@@ -784,19 +784,19 @@ body #banner__list--item:nth-child(3) .minn p:nth-child(2) {
   letter-spacing: 0px;
   text-transform: capitalize;
 }
-body #banner__list--item:nth-child(4) {
+body .banner__list--item:nth-child(4) {
   padding-left: 100px;
 }
-body #banner__list--item:nth-child(5) {
+body .banner__list--item:nth-child(5) {
   padding-left: 35px;
 }
-body #banner__list--item:nth-child(5) .minn {
+body .banner__list--item:nth-child(5) .minn {
   position: absolute;
   left: 0%;
   bottom: 9.25%;
   width: 100%;
 }
-body #banner__list--item:nth-child(5) .minn p:first-child {
+body .banner__list--item:nth-child(5) .minn p:first-child {
   font-family: 'Fira Sans', sans-serif;
   font-size: 24px;
   font-weight: 400;
@@ -805,7 +805,7 @@ body #banner__list--item:nth-child(5) .minn p:first-child {
   line-height: 36px;
   letter-spacing: 1px;
 }
-body #banner__list--item:nth-child(5) .minn p:last-child {
+body .banner__list--item:nth-child(5) .minn p:last-child {
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -813,16 +813,16 @@ body #banner__list--item:nth-child(5) .minn p:last-child {
   text-transform: capitalize;
   line-height: 36px;
 }
-body #banner__list--item:nth-child(6) {
+body .banner__list--item:nth-child(6) {
   padding-right: 75px;
 }
-body #banner__list--item:nth-child(6) .minn {
+body .banner__list--item:nth-child(6) .minn {
   position: absolute;
   top: 26.25%;
   left: 9%;
   text-align: left;
 }
-body #banner__list--item:nth-child(6) .minn p:first-child {
+body .banner__list--item:nth-child(6) .minn p:first-child {
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 48px;
   font-weight: 700;
@@ -831,7 +831,7 @@ body #banner__list--item:nth-child(6) .minn p:first-child {
   line-height: 56px;
   letter-spacing: 0;
 }
-body #banner__list--item:nth-child(6) .minn p:last-child {
+body .banner__list--item:nth-child(6) .minn p:last-child {
   padding-top: 22px;
   font-family: 'Fira Sans', sans-serif;
   font-size: 14px;
@@ -840,24 +840,24 @@ body #banner__list--item:nth-child(6) .minn p:last-child {
   line-height: 24px;
   letter-spacing: 0.5px;
 }
-body #banner__list--item:hover {
+body .banner__list--item:hover {
   padding-top: 21px;
 }
-body #products {
+body .products {
   padding-top: 75px;
   padding-bottom: 55px;
 }
-body #products__title {
+body .products__title {
   margin-bottom: 52px;
 }
-body #products__title--featured-items {
+body .products__title--featured-items {
   float: left;
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 56px;
   font-weight: 700;
   margin-left: -2px;
 }
-body #products__title--view-more {
+body .products__title--view-more {
   float: right;
   font-family: 'Fira Sans', sans-serif;
   font-size: 14px;
@@ -869,67 +869,67 @@ body #products__title--view-more {
   margin-top: 38px;
   margin-right: 11px;
 }
-body #products__title--view-more .iconify {
+body .products__title--view-more .iconify {
   font-size: 18px;
   color: #d6ba8d;
 }
-body #products__list {
+body .products__list {
   padding-top: 11px;
 }
-body #products__list__item--picture {
+body .products__list__item--picture {
   position: relative;
 }
-body #products__list__item--picture img:first-child {
+body .products__list__item--picture img:first-child {
   display: block;
 }
-body #products__list__item--picture img {
+body .products__list__item--picture img {
   width: 100%;
 }
-body #products__list__item--picture--l-r,
-body #products__list__item--picture--action {
+body .products__list__item--picture--l-r,
+body .products__list__item--picture--action {
   transition: 0.5s ease;
   opacity: 0;
 }
-body #products__list__item--picture--l-r button:first-child {
+body .products__list__item--picture--l-r button:first-child {
   position: absolute;
   top: 42.5%;
   left: 10px;
 }
-body #products__list__item--picture--l-r button:last-child {
+body .products__list__item--picture--l-r button:last-child {
   position: absolute;
   top: 42.5%;
   right: 10px;
 }
-body #products__list__item--picture--l-r button {
+body .products__list__item--picture--l-r button {
   font-size: 24px;
   color: #2f2f2f;
   padding: 0;
   border: none;
   background: none;
 }
-body #products__list__item--picture--l-r button:hover {
+body .products__list__item--picture--l-r button:hover {
   background-color: #d6ba8d;
 }
-body #products__list__item--picture--l-r button:focus {
+body .products__list__item--picture--l-r button:focus {
   outline: 0;
 }
-body #products__list__item--picture--action {
+body .products__list__item--picture--action {
   width: 100%;
   position: absolute;
   left: 0px;
   bottom: 0px;
 }
-body #products__list__item--picture--action--add-to-cart,
-body #products__list__item--picture--action--favorite,
-body #products__list__item--picture--action--wave,
-body #products__list__item--picture--action--search {
+body .products__list__item--picture--action--add-to-cart,
+body .products__list__item--picture--action--favorite,
+body .products__list__item--picture--action--wave,
+body .products__list__item--picture--action--search {
   float: left;
   height: 40px;
   line-height: 40px;
   text-align: center;
   border-right: 1px solid #fff;
 }
-body #products__list__item--picture--action--add-to-cart {
+body .products__list__item--picture--action--add-to-cart {
   width: 55%;
   background-color: #d6ba8d;
   font-family: 'Fira Sans', sans-serif;
@@ -938,40 +938,40 @@ body #products__list__item--picture--action--add-to-cart {
   color: #fff;
   text-transform: uppercase;
 }
-body #products__list__item--picture--action--add-to-cart:hover {
+body .products__list__item--picture--action--add-to-cart:hover {
   color: #2e2e2e;
 }
-body #products__list__item--picture--action--favorite,
-body #products__list__item--picture--action--wave,
-body #products__list__item--picture--action--search {
+body .products__list__item--picture--action--favorite,
+body .products__list__item--picture--action--wave,
+body .products__list__item--picture--action--search {
   background-color: #595858;
   font-size: 18px;
   color: #ccc;
   width: 15%;
 }
-body #products__list__item--picture--action--favorite:hover,
-body #products__list__item--picture--action--wave:hover,
-body #products__list__item--picture--action--search:hover {
+body .products__list__item--picture--action--favorite:hover,
+body .products__list__item--picture--action--wave:hover,
+body .products__list__item--picture--action--search:hover {
   font-size: 20px;
   color: yellow;
 }
-body #products__list__item--picture--action--search {
+body .products__list__item--picture--action--search {
   border: none;
 }
-body #products__list__item--picture:hover #products__list__item--picture--l-r,
-body #products__list__item--picture:hover #products__list__item--picture--action {
+body .products__list__item--picture:hover #products__list__item--picture--l-r,
+body .products__list__item--picture:hover #products__list__item--picture--action {
   opacity: 1;
 }
-body #products__list__item--detail {
+body .products__list__item--detail {
   text-align: center;
   margin-top: 9px;
   margin-bottom: 23px;
 }
-body #products__list__item--detail h5,
-body #products__list__item--detail p {
+body .products__list__item--detail h5,
+body .products__list__item--detail p {
   letter-spacing: 0.75px;
 }
-body #products__list__item--detail h5 {
+body .products__list__item--detail h5 {
   font-family: 'Fira Sans', sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -979,27 +979,27 @@ body #products__list__item--detail h5 {
   line-height: 36px;
   text-transform: capitalize;
 }
-body #products__list__item--detail p {
+body .products__list__item--detail p {
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 22px;
   font-weight: bold;
   color: #d6ba8d;
   line-height: 12px;
 }
-body #blog-update {
+body .blog-update {
   background-color: #faf9f9;
   margin-top: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-body #blog-update__title,
-body #blog-update__list {
+body .blog-update__title,
+body .blog-update__list {
   margin-top: -5px;
 }
-body #blog-update__title {
+body .blog-update__title {
   text-align: center;
 }
-body #blog-update__title h3 {
+body .blog-update__title h3 {
   position: relative;
   top: -85px;
   font-family: 'Cormorant Garamond', sans-serif;
@@ -1007,24 +1007,24 @@ body #blog-update__title h3 {
   font-weight: bold;
   letter-spacing: 0;
 }
-body #blog-update__list {
+body .blog-update__list {
   margin-top: -3px;
   margin-bottom: 50px;
 }
-body #blog-update__list .card {
+body .blog-update__list .card {
   border: none;
 }
-body #blog-update__list .card .card-body {
+body .blog-update__list .card .card-body {
   padding: 30px;
   margin-top: -3px;
 }
-body #blog-update__list--item {
+body .blog-update__list--item {
   height: 460px;
 }
-body #blog-update__list--item img {
+body .blog-update__list--item img {
   border-radius: 0;
 }
-body #blog-update__list--item .time {
+body .blog-update__list--item .time {
   font-family: 'Fira Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -1035,7 +1035,7 @@ body #blog-update__list--item .time {
   line-height: 24px;
   letter-spacing: 1.25px;
 }
-body #blog-update__list--item h5 {
+body .blog-update__list--item h5 {
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 24px;
   font-weight: bold;
@@ -1045,7 +1045,7 @@ body #blog-update__list--item h5 {
   padding: 18px 10px 50px 2px;
   border-bottom: 1px solid #eee;
 }
-body #blog-update__list--item .social {
+body .blog-update__list--item .social {
   font-family: 'Fira Sans', sans-serif;
   font-size: 13px;
   color: #696969;
@@ -1053,16 +1053,16 @@ body #blog-update__list--item .social {
   text-transform: capitalize;
   padding: 7px 0 0 3px;
 }
-body #blog-update__list--item .social .iconify {
+body .blog-update__list--item .social .iconify {
   font-size: 16px;
   color: #92c5d9;
 }
-body #blog-update__go-to {
+body .blog-update__go-to {
   text-align: center;
   margin-bottom: 50px;
   padding: 0 42.5% 0 42.5%;
 }
-body #blog-update__go-to p {
+body .blog-update__go-to p {
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 24px;
   font-weight: 400;
@@ -1075,66 +1075,66 @@ body #blog-update__go-to p {
   line-height: 0px;
   background-color: #fff;
 }
-body #co-op {
+body .co-op {
   height: 200px;
   background-color: #fff;
   text-align: center;
 }
-body #co-op__list--name img {
+body .co-op__list--name img {
   opacity: 0.5;
 }
-body #co-op__list--name img:hover {
+body .co-op__list--name img:hover {
   opacity: 1;
 }
-body #co-op__list--name:nth-child(1) {
+body .co-op__list--name:nth-child(1) {
   padding-top: 5.35%;
   padding-left: 10px;
 }
-body #co-op__list--name:nth-child(2) {
+body .co-op__list--name:nth-child(2) {
   padding-top: 6.25%;
   padding-left: 20px;
 }
-body #co-op__list--name:nth-child(3) {
+body .co-op__list--name:nth-child(3) {
   padding-top: 6.25%;
   padding-left: 15px;
 }
-body #co-op__list--name:nth-child(4) {
+body .co-op__list--name:nth-child(4) {
   padding-top: 5%;
   padding-left: 15px;
 }
-body #co-op__list--name:nth-child(5) {
+body .co-op__list--name:nth-child(5) {
   padding-top: 5.25%;
   padding-left: 15px;
 }
-body #co-op__list--name:nth-child(6) {
+body .co-op__list--name:nth-child(6) {
   padding-top: 7.25%;
   padding-left: 15px;
 }
-body #footer {
+body .footer {
   background-color: #333;
   padding-right: 15px;
 }
-body #footer__top {
+body .footer__top {
   padding: 45px 0px 8px 0px;
   border-bottom: 1px solid #2b2b2b;
   margin: 0 -6px;
 }
-body #footer__top__logo {
+body .footer__top__logo {
   text-align: left;
   padding-top: 18px;
 }
-body #footer__top__menu {
+body .footer__top__menu {
   line-height: 160px;
   text-align: center;
   padding: 3% 8% 0 10.5%;
 }
-body #footer__top__menu ul li {
+body .footer__top__menu ul li {
   list-style: none;
   float: left;
   margin-left: 17px;
   margin-right: 17px;
 }
-body #footer__top__menu ul li a {
+body .footer__top__menu ul li a {
   font-family: 'Fira Sans', sans-serif;
   font-size: 14px;
   font-weight: bold;
@@ -1142,14 +1142,14 @@ body #footer__top__menu ul li a {
   text-transform: uppercase;
   letter-spacing: 1.25px;
 }
-body #footer__top__menu ul li a:hover {
+body .footer__top__menu ul li a:hover {
   color: #d6ba8d;
 }
-body #footer__top__sub {
+body .footer__top__sub {
   padding-top: 96px;
   text-align: right;
 }
-body #footer__top__sub button {
+body .footer__top__sub button {
   margin-right: -18px;
   font-family: 'Fira Sans', sans-serif;
   font-size: 14px;
@@ -1161,35 +1161,35 @@ body #footer__top__sub button {
   letter-spacing: 2.25px;
   background-color: transparent;
 }
-body #footer__top__sub button .iconify {
+body .footer__top__sub button .iconify {
   font-size: 18px;
   margin-left: 9px;
   margin-bottom: 2px;
 }
-body #footer__top__sub button .iconify {
+body .footer__top__sub button .iconify {
   font-size: 18px;
   color: #d6ba8d;
 }
-body #footer__top__sub button:focus {
+body .footer__top__sub button:focus {
   outline: none;
 }
-body #footer__top__sub button:hover {
+body .footer__top__sub button:hover {
   border: 2px solid #d6ba8d;
   background-color: #d6ba8d;
   color: #333;
 }
-body #footer__top__sub button:hover .iconify {
+body .footer__top__sub button:hover .iconify {
   color: #333;
 }
-body #footer__bottom {
+body .footer__bottom {
   height: 170px;
 }
-body #footer__bottom__about {
+body .footer__bottom__about {
   text-align: left;
   padding-top: 41px;
   margin-left: -10px;
 }
-body #footer__bottom__about p {
+body .footer__bottom__about p {
   font-family: 'Fira Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -1198,29 +1198,29 @@ body #footer__bottom__about p {
   letter-spacing: 0;
   line-height: 28px;
 }
-body #footer__bottom__us {
+body .footer__bottom__us {
   text-align: right;
   padding-top: 45px;
 }
-body #footer__bottom__us .alo {
+body .footer__bottom__us .alo {
   margin: 0 2.5px;
   padding: 13px;
   border-radius: 50%;
   border: 2px solid #4e4e4e;
 }
-body #footer__bottom__us .alo:last-child {
+body .footer__bottom__us .alo:last-child {
   margin-right: -17px;
 }
-body #footer__bottom__us .alo:hover {
+body .footer__bottom__us .alo:hover {
   background-color: #d6ba8d;
   border: none;
   padding: 15px;
 }
-body #footer__bottom__us .iconify {
+body .footer__bottom__us .iconify {
   font-size: 18px;
   color: #ababab;
 }
-body #footer__bottom__us .alo:hover .iconify {
+body .footer__bottom__us .alo:hover .iconify {
   color: #333;
 }
 .none {
@@ -1228,393 +1228,404 @@ body #footer__bottom__us .alo:hover .iconify {
   margin: 0 !important;
 }
 @media (max-width: 1900px) {
-  body #banner,
-  body #products,
-  body #blog-update,
-  body #co-op,
-  body #footer {
+  body .banner,
+  body .products,
+  body .blog-update,
+  body .co-op,
+  body .footer {
     margin-left: 0 !important;
     margin-right: 0 !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-  body #content-page {
+  body .content-page {
     margin-left: 0 !important;
   }
-  body #banner {
+  body .banner {
     margin-bottom: 0;
   }
-  body #banner__list {
+  body .banner__list {
     margin: 0;
   }
-  body #banner__list--item {
+  body .banner__list--item {
     max-height: auto !important;
     padding: 2% !important;
     margin: 0 !important;
   }
-  body #banner__list--item img {
+  body .banner__list--item img {
     width: 100%;
     height: 100%;
   }
-  body #banner__list--item:nth-child(2) .minn {
+  body .banner__list--item:nth-child(2) .minn {
     right: 9% !important;
   }
-  body #banner__list--item:nth-child(3) .minn {
+  body .banner__list--item:nth-child(3) .minn {
     left: 9.5% !important;
   }
 }
 @media (max-width: 1700px) {
-  body #banner__list--item:nth-child(2) .minn {
+  body .banner__list--item:nth-child(2) .minn {
     right: 12% !important;
   }
-  body #banner__list--item:nth-child(2) .minn p {
+  body .banner__list--item:nth-child(2) .minn p {
     line-height: 50px !important;
   }
-  body #banner__list--item:nth-child(2) .minn p:nth-child(2) {
+  body .banner__list--item:nth-child(2) .minn p:nth-child(2) {
     font-size: 60px !important;
   }
-  body #banner__list--item:nth-child(2) .minn p:nth-child(1),
-  body #banner__list--item:nth-child(2) .minn p:nth-child(3),
-  body #banner__list--item:nth-child(2) .minn p:nth-child(4) {
+  body .banner__list--item:nth-child(2) .minn p:nth-child(1),
+  body .banner__list--item:nth-child(2) .minn p:nth-child(3),
+  body .banner__list--item:nth-child(2) .minn p:nth-child(4) {
     font-size: 16px !important;
   }
-  body #banner__list--item:nth-child(2) .minn p:nth-child(2) {
+  body .banner__list--item:nth-child(2) .minn p:nth-child(2) {
     font-size: 60px !important;
   }
-  body #banner__list--item:nth-child(3) .minn p:nth-child(2) {
+  body .banner__list--item:nth-child(3) .minn p:nth-child(2) {
     font-size: 40px !important;
   }
-  body #banner__list--item:nth-child(6) .minn {
+  body .banner__list--item:nth-child(6) .minn {
     left: 6% !important;
   }
 }
 @media (max-width: 1400px) {
-  body #header__main__banner {
+  body .header__main__banner {
     top: 20% !important;
     left: 5% !important;
   }
-  body #header__main__banner--content--text {
+  body .header__main__banner--content--text {
     font-size: 50px !important;
     line-height: 50px !important;
   }
-  body #banner__list--item:nth-child(2) .minn {
+  body .banner__list--item:nth-child(2) .minn {
     top: 35% !important;
   }
-  body #banner__list--item:nth-child(2) .minn p:nth-child(2) {
+  body .banner__list--item:nth-child(2) .minn p:nth-child(2) {
     font-size: 40px !important;
     line-height: 50px !important;
   }
-  body #banner__list--item:nth-child(2) .minn p:nth-child(1),
-  body #banner__list--item:nth-child(2) .minn p:nth-child(3),
-  body #banner__list--item:nth-child(2) .minn p:nth-child(4) {
+  body .banner__list--item:nth-child(2) .minn p:nth-child(1),
+  body .banner__list--item:nth-child(2) .minn p:nth-child(3),
+  body .banner__list--item:nth-child(2) .minn p:nth-child(4) {
     line-height: 20px !important;
     font-size: 14px !important;
   }
 }
 @media (max-width: 1200px) {
-  body #banner__list--item:nth-child(1) .minn p,
-  body #banner__list--item:nth-child(5) .minn p {
+  body .banner__list--item:nth-child(1) .minn p,
+  body .banner__list--item:nth-child(5) .minn p {
     font-size: 16px !important;
   }
-  body #banner__list--item:nth-child(3) .minn p:first-child {
+  body .banner__list--item:nth-child(3) .minn p:first-child {
     line-height: 50px;
   }
-  body #banner__list--item:nth-child(3) .minn p:last-child {
+  body .banner__list--item:nth-child(3) .minn p:last-child {
     line-height: 26px !important;
     font-size: 40px !important;
   }
-  body #banner__list--item:nth-child(2) .minn {
+  body .banner__list--item:nth-child(2) .minn {
     right: 7% !important;
   }
-  body #banner__list--item:nth-child(6) .minn {
+  body .banner__list--item:nth-child(6) .minn {
     top: 10% !important;
   }
-  body #banner__list--item:nth-child(6) .minn p:first-child {
+  body .banner__list--item:nth-child(6) .minn p:first-child {
     font-size: 40px !important;
   }
-  body #co-op {
+  body .co-op {
     height: auto;
   }
-  body #co-op__list {
+  body .co-op__list {
     padding-top: 5%;
   }
-  body #co-op__list--name {
+  body .co-op__list--name {
     padding: 0 !important;
     line-height: 175px;
   }
-  body #blog-update .card-deck {
+  body .blog-update .card-deck {
     margin-left: auto;
     margin-right: auto;
   }
-  body #footer__top__menu ul li {
+  body .footer__top__menu ul li {
     margin: 0 7px;
   }
 }
 @media (max-width: 991px) {
-  body #helper {
+  body .helper {
     padding-top: 20px;
     padding-bottom: 250px !important;
   }
-  body #helper__free-shipping,
-  body #helper__support,
-  body #helper__payment {
+  body .helper__free-shipping,
+  body .helper__support,
+  body .helper__payment {
     padding: 0;
     margin: 0;
     border: none;
   }
-  body #banner__list--item {
+  body .banner__list--item {
     padding: 1% !important;
   }
-  body #banner__list--item:nth-child(1) .minn p,
-  body #banner__list--item:nth-child(5) .minn p {
+  body .banner__list--item:nth-child(1) .minn p,
+  body .banner__list--item:nth-child(5) .minn p {
     line-height: 16px !important;
     font-size: 12px !important;
   }
-  body #banner__list--item:nth-child(2) .minn {
+  body .banner__list--item:nth-child(2) .minn {
     top: 25% !important;
     right: 7% !important;
   }
-  body #banner__list--item:nth-child(2) .minn p {
+  body .banner__list--item:nth-child(2) .minn p {
     line-height: 50px !important;
   }
-  body #banner__list--item:nth-child(2) .minn p:nth-child(1),
-  body #banner__list--item:nth-child(2) .minn p:nth-child(3),
-  body #banner__list--item:nth-child(2) .minn p:nth-child(4) {
+  body .banner__list--item:nth-child(2) .minn p:nth-child(1),
+  body .banner__list--item:nth-child(2) .minn p:nth-child(3),
+  body .banner__list--item:nth-child(2) .minn p:nth-child(4) {
     font-size: 12px !important;
   }
-  body #banner__list--item:nth-child(3) .minn {
+  body .banner__list--item:nth-child(3) .minn {
     left: 9% !important;
   }
-  body #banner__list--item:nth-child(3) .minn p:first-child {
+  body .banner__list--item:nth-child(3) .minn p:first-child {
     font-size: 10px !important;
   }
-  body #banner__list--item:nth-child(3) .minn p:last-child {
+  body .banner__list--item:nth-child(3) .minn p:last-child {
     line-height: 16px !important;
     font-size: 24px !important;
   }
-  body #banner__list--item:nth-child(6) .minn {
+  body .banner__list--item:nth-child(6) .minn {
     top: 20% !important;
   }
-  body #banner__list--item:nth-child(6) .minn p:first-child {
+  body .banner__list--item:nth-child(6) .minn p:first-child {
     line-height: 25px !important;
     font-size: 30px !important;
   }
-  body #content-page {
+  body .content-page {
     height: auto;
     padding-top: 0 !important;
   }
-  body #content-page p {
+  body .content-page p {
     padding: 0;
     line-height: normal;
   }
-  body #products {
+  body .products {
     margin-left: 0;
     padding-left: 0;
     text-align: center;
   }
-  body #blog-update__list--item {
+  body .blog-update__list--item {
     position: relative;
   }
-  body #blog-update__list--item h5 {
+  body .blog-update__list--item h5 {
     border: none;
   }
-  body #blog-update__list--item .social {
+  body .blog-update__list--item .social {
     position: absolute;
     bottom: 4%;
     left: 5%;
   }
-  body #footer__top__logo,
-  body #footer__top__menu,
-  body #footer__top__sub {
+  body .footer__top__logo,
+  body .footer__top__menu,
+  body .footer__top__sub {
     text-align: center !important;
     padding: 0;
     margin: 0;
   }
-  body #footer__top__menu {
+  body .footer__top__menu {
     padding: 0 10%;
   }
-  body #footer__top__menu ul li {
+  body .footer__top__menu ul li {
     margin: 0 17px;
   }
 }
 @media (max-width: 767px) {
-  body #header__main__banner {
+  body .header__main__banner {
     top: 25% !important;
   }
-  body #header__main__banner--content--year {
+  body .header__main__banner--content--year {
     font-size: 18px !important;
     letter-spacing: 5px !important;
   }
-  body #header__main__banner--content--text {
+  body .header__main__banner--content--text {
     font-size: 25px !important;
     line-height: 35px !important;
     letter-spacing: 20px !important;
   }
-  body #header__main__contact {
+  body .header__main__banner--discover-now a {
+    padding: 10px 15px;
+    font-size: 8px;
+  }
+  body .header__main__banner--discover-now a:hover {
+    padding: 9px 14px;
+  }
+  body .header__main__contact {
     right: 2% !important;
   }
-  body #header__main__contact #a1 p:first-child,
-  body #header__main__contact #a2 p:first-child,
-  body #header__main__contact #a3 p:first-child,
-  body #header__main__contact #a4 p:first-child {
-    font-size: 20px;
+  body .header__main__contact #a1 p:first-child,
+  body .header__main__contact #a2 p:first-child,
+  body .header__main__contact #a3 p:first-child,
+  body .header__main__contact #a4 p:first-child {
+    font-size: 12px;
     letter-spacing: 1px;
     line-height: 20px;
   }
-  body #header__main__contact #a1 p:last-child,
-  body #header__main__contact #a2 p:last-child,
-  body #header__main__contact #a3 p:last-child,
-  body #header__main__contact #a4 p:last-child {
+  body .header__main__contact #a1 p:last-child,
+  body .header__main__contact #a2 p:last-child,
+  body .header__main__contact #a3 p:last-child,
+  body .header__main__contact #a4 p:last-child {
     display: none;
   }
-  body #banner__list--item:nth-child(2) .minn {
+  body .banner__list--item:nth-child(2) .minn {
     right: 7% !important;
   }
-  body #banner__list--item:nth-child(2) .minn p:nth-child(1) {
+  body .banner__list--item:nth-child(2) .minn p:nth-child(1) {
     letter-spacing: 0 !important;
   }
-  body #banner__list--item:nth-child(2) .minn p:nth-child(2) {
+  body .banner__list--item:nth-child(2) .minn p:nth-child(2) {
     line-height: 35px !important;
   }
-  body #banner__list--item:nth-child(2) .minn p:nth-child(3) {
+  body .banner__list--item:nth-child(2) .minn p:nth-child(3) {
     font-size: 9px !important;
   }
-  body #banner--item:nth-child(3) .minn p {
+  body .banner--item:nth-child(3) .minn p {
     line-height: 20px !important;
     letter-spacing: 1px !important;
   }
-  body #products__title--featured-items {
+  body .products__title--featured-items {
     font-size: 36px !important;
   }
-  body #products__title--view-more {
+  body .products__title--view-more {
     margin-top: 15px !important;
   }
-  body #blog-update__list {
+  body .blog-update__list {
     width: 100%;
     display: block;
   }
-  body #blog-update__list--item {
+  body .blog-update__list--item {
     height: auto !important;
     margin-bottom: 9% !important;
   }
-  body #blog-update__list--item .card-body {
+  body .blog-update__list--item .card-body {
     padding: 30px !important;
   }
-  body #blog-update__list--item h5 {
+  body .blog-update__list--item h5 {
     font-size: 16px !important;
     letter-spacing: 0.5px;
     padding: 0 !important;
   }
-  body #blog-update__title h3 {
+  body .blog-update__title h3 {
     font-size: 36px !important;
   }
-  body #blog-update__go-to {
+  body .blog-update__go-to {
     padding: 0 35% !important;
   }
-  body #footer {
+  body .footer {
     padding-bottom: 5%;
   }
-  body #footer__top__menu {
+  body .footer__top__menu {
     line-height: 100px;
     padding: 0 !important;
   }
-  body #footer__top__menu ul li {
+  body .footer__top__menu ul li {
     margin: 0 12px !important;
   }
-  body #footer__bottom__about,
-  body #footer__bottom__us {
+  body .footer__bottom__about,
+  body .footer__bottom__us {
     padding-bottom: 20px !important;
     text-align: center !important;
   }
-  body #footer__bottom__us {
+  body .footer__bottom__us {
     padding-top: 0 !important;
   }
 }
 @media (max-width: 599px) {
-  body #banner__list {
+  body .banner__list {
     padding: 0 12px !important;
   }
-  body #banner__list--item:nth-child(2) .minn {
+  body .banner__list--item:nth-child(2) .minn {
     right: 7% !important;
   }
-  body #banner__list--item:nth-child(2) .minn p:nth-child(4) {
+  body .banner__list--item:nth-child(2) .minn p:nth-child(4) {
     letter-spacing: 0.5px !important;
     line-height: 15px !important;
   }
-  body #banner__list--item:nth-child(2) .minn p:nth-child(2) {
+  body .banner__list--item:nth-child(2) .minn p:nth-child(2) {
     font-size: 30px !important;
   }
-  body #banner__list--item:nth-child(2) .minn p:nth-child(3) {
+  body .banner__list--item:nth-child(2) .minn p:nth-child(3) {
     font-size: 8px !important;
   }
-  body #content-page p {
+  body .content-page p {
     font-size: 24px !important;
   }
 }
 @media (max-width: 575px) {
-  body #header__main__banner {
+  body .header__main__banner {
     top: 25% !important;
   }
-  body #header__main__banner--content--year {
+  body .header__main__banner--content--year {
     font-size: 18px !important;
     letter-spacing: 5px !important;
   }
-  body #header__main__banner--content--text {
+  body .header__main__banner--content--text {
     margin-top: 10px !important;
     font-size: 25px !important;
     line-height: 35px !important;
     letter-spacing: 20px !important;
   }
-  body #banner__list {
+  body .banner__list {
     padding: 0 !important;
   }
-  body #banner__list--item {
+  body .banner__list--item {
     max-height: none !important;
     padding: 2% 0 !important;
   }
-  body #products__list__item--picture--action--add-to-cart {
+  body .products__list__item--picture--action--add-to-cart {
     font-size: 10px !important;
   }
-  body #products__list__item--picture--action--favorite,
-  body #products__list__item--picture--action--wave,
-  body #products__list__item--picture--action--search {
+  body .products__list__item--picture--action--favorite,
+  body .products__list__item--picture--action--wave,
+  body .products__list__item--picture--action--search {
     font-size: 12px !important;
   }
-  body #blog-update .card-deck {
+  body .blog-update .card-deck {
     margin-left: 15px !important;
     margin-right: 15px !important;
   }
-  body #footer__top__menu {
+  body .footer__top__menu {
     line-height: 100px !important;
   }
-  body #footer__top__menu ul {
+  body .footer__top__menu ul {
     display: flex;
     justify-content: center;
   }
-  body #footer__top__menu ul li {
+  body .footer__top__menu ul li {
     margin: 0 2% !important;
   }
-  body #footer__top__menu ul li a {
+  body .footer__top__menu ul li a {
     font-size: 12px !important;
+  }
+  body .co-op__list--name {
+    max-width: 50%;
+    height: auto;
   }
 }
 @media (max-width: 479px) {
-  body #header__main__banner {
+  body .header__main__banner {
     top: 30% !important;
   }
-  body #header__main__banner--content--year {
+  body .header__main__banner--content--year {
     font-size: 12px !important;
   }
-  body #header__main__banner--content--text {
+  body .header__main__banner--content--text {
     margin-top: 10px !important;
     font-size: 14px !important;
     line-height: 18px !important;
     letter-spacing: 10px !important;
   }
-  body #footer__top__menu {
+  body .footer__top__menu {
     padding-left: 2.5% !important;
   }
-  body #footer__top__menu ul li a {
+  body .footer__top__menu ul li a {
     font-size: 10px !important;
     letter-spacing: 0.25px !important;
   }
